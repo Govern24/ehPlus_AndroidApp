@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_near_hospitals"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Nearby Hospitals" />
+        <item
+            android:id="@+id/nav_near_ambulance"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Nearby Ambulance" />
+        <item
+            android:id="@+id/nav_qr_scanner"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="QR Scanner" />
+        <item
+            android:id="@+id/nav_previous_medical_info"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Previous Medical Information" />
+
+
+        <item
+            android:id="@+id/nav_view_profile"
+            android:icon="@drawable/ic_menu_share"
+            android:title="View Profile" />
+
+
+        <item
+            android:id="@+id/nav_book_appointment"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Book Appointment" />
+
+        <item
+            android:id="@+id/nav_track_ambulance"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Track Ambulance" />
+
+        <item
+            android:id="@+id/nav_indoor_navigation"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Indoor Navigation" />
+
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Feedback" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Logout" />
+
+
+    </group>
+
+  <!--  <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+</menu>
